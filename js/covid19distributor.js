@@ -12,7 +12,7 @@ function addRowToTable()
   el.type = 'text';
   el.name = 'txtRow' + iteration;
   el.id = 'txtRow' + iteration;
-  el.size = 40;
+  el.size = 10;
   el.value="jsdk"
 	
   cellLeft.appendChild(el);
@@ -23,7 +23,7 @@ function addRowToTable()
   el.type = 'text';
   el.name = 'txtRow' + iteration;
   el.id = 'txtRow' + iteration;
-  el.size = 40;
+  el.size = 10;
   el.value="jsdk"
   cellRight.appendChild(el);  
 	
@@ -33,7 +33,7 @@ function addRowToTable()
   el.type = 'text';
   el.name = 'txtRow' + iteration;
   el.id = 'txtRow' + iteration;
-  el.size = 40;
+  el.size = 10;
   el.value="jsndvsd"
   cellRight2.appendChild(el);
 	
@@ -43,20 +43,10 @@ function addRowToTable()
   el.type = 'text';
   el.name = 'txtRow' + iteration;
   el.id = 'txtRow' + iteration;
-  el.size = 40;
+  el.size = 10;
   el.value="jg,mlt;hml"
   cellRight3.appendChild(el);
-	
-	var cellRight4 = row.insertCell(4);
-  var el = document.createElement('input');
-  el.type = 'text';
-  el.name = 'txtRow' + iteration;
-  el.id = 'txtRow' + iteration;
-  el.size = 40;
-  el.value="llkrlrke"
-  cellRight4.appendChild(el);
-	
-	
+		
  }
 
 function removeRowFromTable()

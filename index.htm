@@ -28,20 +28,29 @@ position: relative;
 position:absolute;
 				}
 				
+				.homefooter{
+				position: absolute;
+top: 750px;
+float: left;
+margin: 10px 90px 90px 0px;
+width: 100%;
+
+				
+				}
+				
 				.tabledistributor{
 				float:left;
         position: relative;
-        margin: 100px 90px 60px 0px;
-width: 100%;
-				
-				
+    margin: 300px 0px 60px 150px;
+    width: 80%;
+
 				}
 				
 				.tabledistributordonator {
     float: left;
     position: relative;
-    margin: 600px 90px 60px 0px;
-    width: 100%;
+    margin: 670px 0px 60px 150px;
+    width: 80%;
 }
 				
 				
@@ -49,9 +58,9 @@ width: 100%;
 				.tabledistributordetails{
 			  float:left;
         position: relative;
-        margin: 50px 90px 60px 0px;
-width: 100%;
-top:150px;
+        margin: 50px 90px 60px 150px;
+width: 80%;
+
 				}
 				
 				.resetbutton1{
@@ -83,7 +92,7 @@ top:150px;
 				margin: -21px 50px 50px 50px;
 position: absolute;
 top: 100px;
-left: 600px;
+left: 500px;
 color: white;
 				}
 				
@@ -91,7 +100,7 @@ color: white;
 				margin: -21px 50px 50px 50px;
 position: absolute;
 top: 100px;
-left: 850px;
+left: 750px;
 color: white;
 				}
 				
@@ -100,7 +109,7 @@ color: white;
         margin: -21px 50px 50px 50px;
         position: relative;
         top: 100px;
-        left: 350px;
+        left: 250px;
     		color:white
 				}
 				
@@ -108,8 +117,8 @@ color: white;
 				
        
         position: relative;
-        top: -350px;
-        left: 850px;
+        top: -105px;
+        left: 750px;
     		color:white
 				}
 
@@ -117,7 +126,7 @@ color: white;
         margin: 50px 50px 50px 50px;
         position: absolute;
         top: 70px;
-        left: 750px;
+        left: 550px;
     		color:white
 				}
 				
@@ -417,10 +426,12 @@ Contact</strong></a></li> -->
 <h2>The poor people need help today,<strong><br />not another day<br /></strong></h2>
 </li>
 </ul></div>
-                                                    </div>
+<br />
 
-                    </div>
-						<div class="localfooter">				
+
+<!-- end of flexider -->                                     
+               </div>
+						<div class="homefooter">				
 <div class="footer">
     <!----------FOOTER-------->
     <div class="mid-container">
@@ -452,6 +463,9 @@ Contact</strong></a></li> -->
 </div>
 
 </div>
+
+                    </div>
+
 				
 				</div>
 				</div>
@@ -465,70 +479,55 @@ Contact</strong></a></li> -->
         <input type="text" id="lname" name="lname" value="Doe" readonly="readonly"><br><br>
 			 <input type="submit" value="Submit">
 				</div>
-				<div class="supplierstyle">
-				
-				
-				<h1>DISTRIBUTOR DETAILS</h1>
-			<label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" value="John" readonly="readonly"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" value="Doe" readonly="readonly"><br><br>
-			<label for="lname">Adhar Id(12 digit):</label><br>
-      <input type="text" id="lname" name="lname" value="990909090909" readonly="readonly"><br><br>
-			<label for="lname">Phone(10 digit):</label><br>
-      <input type="text" id="lname" name="lname" value="7834657813" readonly="readonly"><br><br>
-			<label for="lname">State:</label><br>
-      <input type="text" id="lname" name="lname" value="Bihar" readonly="readonly"><br><br>
-			<label for="lname">District:</label><br>
-      <input type="text" id="lname" name="lname" value="Patna" readonly="readonly"><br><br>
-			<label for="lname">About Yourself:</label><br>
-      <input type="text" id="lname" name="lname" value="NGO" readonly="readonly"><br><br>
-      <input type="submit" value="Submit">
-	</div>
+	
 	
 
 <table border="1" id="tblSample1" class="tabledistributor">
 
 <tr>
 
-<th >distribution Id</th>
-<th >details</th>
-<th >quantity</th>
-<th >Location</th>
-<th >status</th>
+<th  width="10">Reference Id</th>
+<th  width="10">conatact person</th>
+<th  width="10">details</th>
+<th  width="10">quantity</th>
+<th  width="10">Location</th>
+<th  width="10">status</th>
+<th  width="10">schedule later</th>
 </tr>
 
 <tr>
 
-<td><input type="text" name="txtRow1" id="txtRow1" size="40" readonly="readonly" /></td>
-<td><input type="text" name="txtRow2" id="txtRow2" size="40" readonly="readonly"/></td>
-<td><input type="text" name="txtRow3" id="txtRow3" size="40" readonly="readonly"/></td>
-<td><input type="text" name="txtRow4" id="txtRow4" size="40" readonly="readonly"/></td>
-<td><input type="text" name="txtRow4" id="txtRow4" size="40" readonly="readonly"/></td>
+<td><input type="text" name="txtRow1" id="txtRow1" size="10" readonly="readonly" /></td>
+<td><input type="text" name="txtRow2" id="txtRow2" size="10" readonly="readonly"/></td>
+<td><input type="text" name="txtRow3" id="txtRow3" size="10" readonly="readonly"/></td>
+<td><input type="text" name="txtRow4" id="txtRow4" size="10" readonly="readonly"/></td>
+<td><input type="text" name="txtRow4" id="txtRow4" size="10" readonly="readonly"/></td>
+<td><input type="text" name="txtRow4" id="txtRow4" size="10" readonly="readonly"/></td>
+<td><input type="submit" value="schedule later" /></td>
 
 </tr>
 
 </table>
 
+
+
 <table border="1" id="tblSample2" class="tabledistributordetails">
 
 <tr>
-<th >distribution Id</th>
-<th >serial no</th>
-<th >person name</th>
-<th >Adhar Id</th>
-<th >Quantity</th>
+<th width="10">Reference Id</th>
+<th  width="10">person name</th>
+<th  width="10">Government Id details</th>
+<th  width="10">Quantity</th>
 
 </tr>
 
 <tr>
 
 
-<td><input type="text" name="txtRow1" id="txtRow1" size="40" readonly="readonly" /></td>
-<td><input type="text" name="txtRow2" id="txtRow2" size="40"  /></td>
-<td><input type="text" name="txtRow3" id="txtRow3" size="40"  /></td>
-<td><input type="text" name="txtRow4" id="txtRow4" size="40"  /></td>
-<td><input type="text" name="txtRow4" id="txtRow4" size="40"  /></td>
+<td><input type="text" name="txtRow1" id="txtRow1" size="10"  /></td>
+<td><input type="text" name="txtRow2" id="txtRow2" size="10"  /></td>
+<td><input type="text" name="txtRow4" id="txtRow4" size="10"  /></td>
+<td><input type="text" name="txtRow4" id="txtRow4" size="10"  /></td>
 
 </tr>
 
@@ -538,6 +537,9 @@ Contact</strong></a></li> -->
 <br />
 <button  class="submitbutton"> submit</button>
 	
+	
+	
+	<div >
 	<div class="footer">
 
     <!----------FOOTER-------->
@@ -556,7 +558,7 @@ Contact</strong></a></li> -->
 <li><a href="/index.php/en-us/?id=630">Webmail</a></li>
 <li><a href="/index.php/en-us/?id=741">Quick Links</a></li>
 </ul></div>
-            </div>
+            </div></div>
 
     <div class="copyright">
         <div class="mid-container">
@@ -579,23 +581,22 @@ Contact</strong></a></li> -->
 				<br />
 				<br />
 			<label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" value="John"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <input type="text" id="fname" name="fname" value=""><br>
 			<label for="lname">Phone(10 digit):</label><br>
-      <input type="text" id="lname" name="lname" value="7834657813"><br><br>
-			<label for="lname">State:</label><br>
-      <input type="text" id="lname" name="lname" value="Bihar"><br><br>
-			<label for="lname">District:</label><br>
-      <input type="text" id="lname" name="lname" value="Patna"><br><br>
-			<label for="lname">Pin code:</label><br>
-      <input type="text" id="lname" name="lname" value="800567"><br><br>
+      <input type="text" id="lname" name="lname" value=""><br><br>
 			<label for="lname">Address 1:</label><br>
       <input type="text" id="lname" name="lname" value=" "><br><br>
 			<label for="lname">Address 2:</label><br>
       <input type="text" id="lname" name="lname" value=" "><br><br>
 			<label for="lname">Landmark:</label><br>
-      <input type="text" id="lname" name="lname" value=" "><br><br>
+			<input type="text" id="lname" name="lname" value=" "><br><br>
+			<label for="lname">Pin code:</label><br>
+      <input type="text" id="lname" name="lname" value="800567"><br><br>
+			<label for="lname">Email:</label><br>
+      <input type="text" id="myTime" value=""><br><br>
+			<label for="lname">OTP:</label><br>
+      <input type="text" id="myTime" value="">
+			<input type="submit" value="get OTP"><br><br>
 			<input type="submit" value="Submit"><br><br>
 			
 	</div>
@@ -611,12 +612,13 @@ Contact</strong></a></li> -->
 				<input type="text" id="lname" name="lname" value="999090304"><br><br>
 				<input type="submit" value="search" onclick="showdonateheresearchbyphonenumberdetails()"><br><br>
 			<input type="submit" value="New Donator" onclick="shownewdonator()">
-			<h1>Subscribe </h1>
+			<!--  <h1>Subscribe </h1>
 			<label for="lname">Email:</label><br>
 			<input type="text" id="lname" name="lname" value=" "><br><br>
 			<label for="lname">Phone no:</label><br>
       <input type="text" id="lname" name="lname" value=" "><br><br>
 			<input type="submit" value="Subscribe"><br><br>
+			-->
 			
 			</div>
 	</div>
@@ -630,42 +632,41 @@ Contact</strong></a></li> -->
       <input type="text" id="lname" name="lname" value="Food or cloth"><br><br>
 			<label for="lname">Quantity:</label><br>
       <input type="text" id="lname" name="lname" value=""><br><br>
-			<label for="lname">Date:</label><br>
+			<label for="lname">Duration for <br>product validity<br> after pickup:</label><br>
+      <input type="text" id="lname" name="lname" value=""><br><br>
+			<label for="lname">Date of pickup:</label><br>
       <input type="date" id="lname" name="lname" value="2014-02-09"><br><br>
 			<label for="lname">Starting Time for pickup:</label><br>
       <input type="time" id="myTime" value="12:00:00"><br><br>
 			<label for="lname">Ending Time for pickup:</label><br>
       <input type="time" id="myTime" value="12:00:00"><br><br>
+			<label for="lname">OTP:</label><br>
+      <input type="text" id="myTime" value="">
 			<input type="submit" value="get OTP"><br><br>
       <input type="submit" value="Submit">
 	</div></div>
-	
-	
-	
 	<!-- show the status of pickups -->
 	<table border="1" id="tblSample3" class="tabledistributordonator">
 
 <tr>
 
-<th >Distribution Id</th>
-<th >Organization</th>
-<th >contact person</th>
-<th >phone no</th>
-<th >details</th>
-<th >quantity</th>
-<th >Location</th>
-<th >status</th>
+<th  width="6">Reference Id</th>
+<th  width="6">contact person</th>
+<th  width="6">phone no</th>
+<th  width="6">details</th>
+<th  width="6">quantity</th>
+<th  width="6">Location</th>
+<th  width="6">status</th>
 </tr>
 
 <tr>
-<td><input type="text" name="txtRow1" id="txtRow1" size="40" readonly="readonly" /></td>
-<td><input type="text" name="txtRow1" id="txtRow1" size="40" readonly="readonly" /></td>
-<td><input type="text" name="txtRow2" id="txtRow2" size="40" readonly="readonly"/></td>
-<td><input type="text" name="txtRow1" id="txtRow1" size="40" readonly="readonly" /></td>
-<td><input type="text" name="txtRow2" id="txtRow2" size="40" readonly="readonly"/></td>
-<td><input type="text" name="txtRow3" id="txtRow3" size="40" readonly="readonly"/></td>
-<td><input type="text" name="txtRow4" id="txtRow4" size="40" readonly="readonly"/></td>
-<td><input type="text" name="txtRow4" id="txtRow4" size="40" readonly="readonly"/></td>
+<td><input type="text" name="txtRow1" id="txtRow1" size="10" readonly="readonly" /></td>
+<td><input type="text" name="txtRow2" id="txtRow2" size="10" readonly="readonly"/></td>
+<td><input type="text" name="txtRow1" id="txtRow1" size="10" readonly="readonly" /></td>
+<td><input type="text" name="txtRow2" id="txtRow2" size="10" readonly="readonly"/></td>
+<td><input type="text" name="txtRow3" id="txtRow3" size="10" readonly="readonly"/></td>
+<td><input type="text" name="txtRow4" id="txtRow4" size="10" readonly="readonly"/></td>
+<td><input type="text" name="txtRow4" id="txtRow4" size="10" readonly="readonly"/></td>
 
 </tr>
 
@@ -707,7 +708,7 @@ Contact</strong></a></li> -->
 				</div>
 				
 				
-                 <div id="registration" role="main" >
+        <div id="registration" role="main" >
 				<div class="supplierstyle">
 				<h1>Registration for Distributor</h1>
 				<select id="registerperson">
@@ -719,21 +720,18 @@ Contact</strong></a></li> -->
 				<br />
 				<br />
 			<label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" value="John"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" value="Doe"><br><br>
-			<label for="lname">Adhar Id(12 digit):</label><br>
-      <input type="text" id="lname" name="lname" value="990909090909"><br><br>
+      <input type="text" id="fname" name="fname" value=""><br><br>
+			<label for="lname">Government Id Name:</label><br>
+			<input type="text" id="lname" name="Id Name" value="Id name"><br><br>
+      <input type="text" id="lname" name="lname" value="Id value"><br><br>
 			<label for="lname">Phone(10 digit):</label><br>
       <input type="text" id="lname" name="lname" value="7834657813"><br><br>
-			<label for="lname">State:</label><br>
-      <input type="text" id="lname" name="lname" value="Bihar"><br><br>
-			<label for="lname">District:</label><br>
-      <input type="text" id="lname" name="lname" value="Patna"><br><br>
+			<label for="lname">Address:</label><br>
+      <input type="text" id="lname" name="lname" value=""><br><br>
 			<label for="lname">Pin code:</label><br>
       <input type="text" id="lname" name="lname" value="800567"><br><br>
 			<label for="lname">About Your work:</label><br>
-      <input type="text" id="lname" name="lname" value="NGO"><br><br>
+      <input type="text" id="lname" name="lname" value=""><br><br>
 			<label for="lname">OTP:</label><br>
       <input type="text" id="lname" name="lname" value="">
 			<input type="submit" value="get OTP"><br><br>
@@ -785,7 +783,7 @@ Contact</strong></a></li> -->
 			<label for="fname">Distribution id:</label><br>
       <input type="text" id="fname" name="fname" value="John"><br><br>
       
-			
+			<!--
 			<label for="lname">Facilitator OTP:</label><br>
       <input type="text" id="lname" name="lname" value="">
 			<br><br>
@@ -798,7 +796,7 @@ Contact</strong></a></li> -->
 			
 			<label for="fname">Facilitator Adhar Id(12 digit):</label><br>
       <input type="text" id="fname" name="fname" value="567474676448"><br><br>
-			
+			-->
       <input type="submit" value="Submit">
 	</div>
 	
@@ -811,7 +809,7 @@ Contact</strong></a></li> -->
 			<label for="fname">Distribution id:</label><br>
       <input type="text" id="fname" name="fname" value="John"><br><br>
       
-			
+			<!--
 			<label for="lname">Facilitator OTP:</label><br>
       <input type="text" id="lname" name="lname" value="">
 			<br><br>
@@ -824,7 +822,7 @@ Contact</strong></a></li> -->
 			
 			<label for="fname">Facilitator Adhar Id(12 digit):</label><br>
       <input type="text" id="fname" name="fname" value="567474676448"><br><br>
-			
+			-->
       <input type="submit" value="Submit">
 	</div>
 	

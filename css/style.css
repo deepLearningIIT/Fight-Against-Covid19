@@ -159,7 +159,7 @@ html[xmlns] .flexslider .slides {
 * ====================================================================================================================*/
 
 .flexslider {
-  margin-left: 317px;
+  margin-left: 150px;
   position: relative;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -425,7 +425,7 @@ html[xmlns] .flexslider .slides {
   left: 0;
   height: 100%;
   top: 0;
-  right: 0;
+  right: -260;
   z-index: auto
 }
 
@@ -1009,7 +1009,7 @@ html[xmlns] .flexslider .slides {
 .footer {
   float: left;
   width: 100%;
-  background: #00487e;margin: 50px 0px 0px 0px;position: relative;
+  background: #00487e;margin: 50px 0px 0px 0px;
 
 }
 
@@ -4373,12 +4373,13 @@ ul.slider .js-marquee-wrapper {
 }
 
 .slider-rbox h2{padding:10px 30px;}
-.slider-rbox{margin-left: 100px;
+.slider-rbox{margin-left: 1100px;
 margin-right: 20px;
 margin-top: 5px;
 margin-bottom: 0px;
 height: 10px;
-width: 200px;}
+width: 200px;
+position:absolute;}
 .covidboard h2{float:left;width:100%;margin:0px;}
 .covidboard {margin-bottom:15px;float:left;width:100%;overflow:hidden;}
 .covidboard p{float:left;width:100%;background:#fff;margin:0px;}
