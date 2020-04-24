@@ -14,6 +14,7 @@
         <script src="js/jquery.js"></script>
 				<script src="js/covid19supplier.js"></script>
 				<script src="js/covid19distributor.js"></script>
+				<script src="js/handlingevents/donatehere.js"></script>
 				<style>
 				.supplierpage{
 				
@@ -311,7 +312,7 @@ p.style.display = "block";
                         		<div class="moduletable">
 						
 <ul class="nav">
-<li><a href="index.htm" >Home</a></li>
+<li><a href="" >Home</a></li>
 <li><a onclick="donateHere()">Donate Here</a></li>
 <li><a onclick="myRegistration()">Registration for Distributor</a></li>
 <li><a onclick="myDistributor()">Distributor</a></li>
@@ -580,13 +581,11 @@ Contact</strong></a></li> -->
 				<h1>Donate Here</h1>
 				<br />
 				<br />
-			<label for="fname">First name:</label><br>
+			<label for="fname">Name:</label><br>
       <input type="text" id="fname" name="fname" value=""><br>
 			<label for="lname">Phone(10 digit):</label><br>
       <input type="text" id="lname" name="lname" value=""><br><br>
 			<label for="lname">Address 1:</label><br>
-      <input type="text" id="lname" name="lname" value=" "><br><br>
-			<label for="lname">Address 2:</label><br>
       <input type="text" id="lname" name="lname" value=" "><br><br>
 			<label for="lname">Landmark:</label><br>
 			<input type="text" id="lname" name="lname" value=" "><br><br>
@@ -597,7 +596,7 @@ Contact</strong></a></li> -->
 			<label for="lname">OTP:</label><br>
       <input type="text" id="myTime" value="">
 			<input type="submit" value="get OTP"><br><br>
-			<input type="submit" value="Submit"><br><br>
+			<input type="submit" id="donarsubmit" value="Submit"><br><br>
 			
 	</div>
 	</div>
@@ -719,11 +718,15 @@ Contact</strong></a></li> -->
 				</select>
 				<br />
 				<br />
-			<label for="fname">First name:</label><br>
+			<label for="fname">Name:</label><br>
+      <input type="text" id="fname" name="fname" value=""><br><br>
+			<label for="fname">Username:</label><br>
+      <input type="text" id="fname" name="fname" value=""><br><br>
+			<label for="fname">Password:</label><br>
       <input type="text" id="fname" name="fname" value=""><br><br>
 			<label for="lname">Government Id Name:</label><br>
 			<input type="text" id="lname" name="Id Name" value="Id name"><br><br>
-      <input type="text" id="lname" name="lname" value="Id value"><br><br>
+      <input type="text" id="lname" name="lname" value="Id number"><br><br>
 			<label for="lname">Phone(10 digit):</label><br>
       <input type="text" id="lname" name="lname" value="7834657813"><br><br>
 			<label for="lname">Address:</label><br>
